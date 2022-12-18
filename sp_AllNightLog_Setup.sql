@@ -64,7 +64,7 @@ BEGIN
 			* dbo.backup_configuration
 				* Hold variables used by stored proc to make runtime decisions
 					* RPO: Seconds, how often we look for databases that need log backups
-					* Backup Path: The path we feed to Ola H''s backup proc sss
+					* Backup Path: The path we feed to Ola H''s backup proc
 			* dbo.backup_worker
 				* Holds list of databases and some information that helps our Agent jobs figure out if they need to take another log backup
 		
